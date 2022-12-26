@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.gustavodinniz</groupId>
-	<artifactId>data</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>data</name>
+	<artifactId>ms-data</artifactId>
+	<version>1.0.0</version>
+	<name>ms-data</name>
 	<description>Demo project for Spring Boot with CI/CD</description>
 	<properties>
 		<java.version>17</java.version>
@@ -37,6 +37,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
